@@ -5,14 +5,14 @@ export default {
   fields: [
     {
       name: 'name',
-      title: 'string',
-      type: 'Category name',
+      title: 'Category name',
+      type: 'string',
       validation: (Rule) => Rule.required(),
     },
     {
       name: 'image',
-      title: 'image',
-      type: 'Image of Category',
+      title: 'Image of Category',
+      type: 'image',
     },
   ],
 }
